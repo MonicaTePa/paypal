@@ -7,7 +7,7 @@ export const PAYPAL_API_SECRET = 'EMrktbbQqxiFBSyslZZkTbNzQ5S2jTfqm5p4h3QCZsc1ZW
 export const PAYPAL_API = 'https://api-m.sandbox.paypal.com'; // url sandbox or live for your app
 
 // Server
-export const PORT = process.env.PORT || 3000;
+export const PORT = process.env.PORT || 5000;
 export const HOST =
   process.env.NODE_ENV === "production"
     ? process.env.HOST

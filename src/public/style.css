@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url("/assets/img/desktop-background2.png");
+    background-size: contain;
+}
+
+nav {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+}
+
+a {
+    color: #130f9b;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.img1 {
+    margin-top: 5px;
+    width: 110px;
+    height: 100px;
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 30px;
+}
+
+.footer-content img {
+    width: 160px;
+    height: 90px;
+}
+
+hr {
+    height: 1px;
+    width: 80%;
+    color: #8e3fd7;
+    width: 600;
+    margin-left: 10%;
+
+}
+
+.footer-content {
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: white;
+}
+
+.confirm-button {
+    height: 192px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.confirm-text {
+    height: 192px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+}
+
+button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+    transform: translateX(7px);
+}
+#text-navbar-1:hover{
+    padding: 12px;
+    box-shadow: inset 100px 0 0 0 #673fd7;
+    color: white;
+  }
+  #text-navbar-2:hover{
+    padding: 12px;
+    box-shadow: inset 100px 0 0 0 #673fd7;
+    color: white;
+  }
+  #text-navbar-3:hover{
+    padding: 12px;
+    box-shadow: inset 100px 0 0 0 #673fd7;
+    color: white;
+  }
+  #text-navbar-4:hover{
+    padding: 12px;
+    box-shadow: inset 100px 0 0 0 #673fd7;
+    color: white;
+  }
