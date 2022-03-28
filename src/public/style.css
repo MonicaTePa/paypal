@@ -70,9 +70,8 @@ hr {
 .confirm-button {
     height: 192px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+   
+
 
 }
 
@@ -82,10 +81,11 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 
 }
 
-button {
+#checkout {
     display: flex;
     align-items: center;
     font-family: inherit;
@@ -100,40 +100,114 @@ button {
     border-radius: 16px;
 }
 
-button svg {
+#checkout svg {
     margin-right: 3px;
     transform: rotate(30deg);
     transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-button span {
+#checkout span {
     transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-button:hover svg {
+#checkout:hover svg {
     transform: translateX(5px) rotate(90deg);
 }
 
 button:hover span {
     transform: translateX(7px);
 }
-#text-navbar-1:hover{
+
+#text-navbar-1:hover {
     padding: 12px;
     box-shadow: inset 100px 0 0 0 #673fd7;
     color: white;
-  }
-  #text-navbar-2:hover{
+}
+
+#text-navbar-2:hover {
     padding: 12px;
     box-shadow: inset 100px 0 0 0 #673fd7;
     color: white;
-  }
-  #text-navbar-3:hover{
+}
+
+#text-navbar-3:hover {
     padding: 12px;
     box-shadow: inset 100px 0 0 0 #673fd7;
     color: white;
-  }
-  #text-navbar-4:hover{
+}
+
+#text-navbar-4:hover {
     padding: 12px;
     box-shadow: inset 100px 0 0 0 #673fd7;
     color: white;
-  }
+}
+
+.noselect {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+}
+
+
+.noselect,
+.noselect span {
+    transition: 200ms;
+}
+
+.noselect .text {
+    transform: translateX(30px);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.noselect .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noselect svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.noselect:hover {
+    background: #ff3636;
+}
+
+.noselect:hover .text {
+    color: transparent;
+}
+
+.noselect:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.noselect:focus {
+    outline: none;
+}
+
+.noselect .icon svg {
+    transform: scale(0.8);
+}
+.buttons-payment{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30%;
+    margin-left: 30%;
+}
