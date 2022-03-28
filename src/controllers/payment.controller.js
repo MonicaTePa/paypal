@@ -14,12 +14,12 @@ export const createOrder = async (req, res) => {
         {
           amount: {
             currency_code: "USD",
-            value: "105.70",
+            value: "90",
           },
         },
       ],
       application_context: {
-        brand_name: "mycompany.com",
+        brand_name: "PayMoon",
         landing_page: "NO_PREFERENCE",
         user_action: "PAY_NOW",
         return_url: `${HOST}/capture-order`,
